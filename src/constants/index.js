@@ -24,7 +24,7 @@ export const shoes = [
 ];
 
 export const statistics = [
-    { value: '10k+', label: 'Clients' },
+    { value: '1k+', label: 'Clients' },
     { value: '20+', label: 'Produits' },
     { value: '99%', label: 'Satisfaction' },
 ];

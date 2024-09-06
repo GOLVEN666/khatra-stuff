@@ -19,7 +19,9 @@ export const translations = {
     supplies: 'Fournitures',
     cacao: 'Cacao',
     honey: 'Miel',
+    equipment: 'Équipement',
     contactUs: 'Contactez-Nous',
+    contactUsss: 'Devenir Franchisé',
     successMessage: 'Votre message a été envoyé avec succès!',
 
     reviews: [
@@ -44,7 +46,7 @@ export const translations = {
       ],
 
     statistics: [
-        { value: '10k+', label: 'Clients' },
+        { value: '1k+', label: 'Clients' },
         { value: '20+', label: 'Produits' },
         { value: '99%', label: 'Satisfaction' },
       ],
@@ -199,6 +201,7 @@ export const translations = {
     submitButton: 'إرسال',
     addressPlaceholder: 'عنوانك',
     successMessage: 'تم إرسال رسالتك بنجاح!',
+    contactUsss: 'كن وكيل امتياز',
 
     reviews: [
         {
@@ -222,7 +225,7 @@ export const translations = {
       ],
 
     statistics: [
-        { value: '10k+', label: 'عملاء' },
+        { value: '1k+', label: 'عملاء' },
         { value: '20+', label: 'منتجات' },
         { value: '99%', label: 'رضا' },
       ],
@@ -320,6 +323,8 @@ export const translations = {
     footerRights: "خاترة. جميع الحقوق محفوظة",
     footerTerms: "الشروط والأحكام",
     gearTitle: "معدات القهوة المثالية",
+    equipment: "معدات القهوة",
+    
     gearDesc: "في خاترة، نعلم أن سر القهوة الاستثنائية يكمن ليس فقط في الحبوب، ولكن أيضًا في الأدوات التي تستخدمها لتحضيرها. سواء كنت من عشاق القهوة العاديين أو من الخبراء الحقيقيين، فقد تم اختيار مجموعة معدات القهوة الخاصة بنا بعناية لمساعدتك في إتقان كل كوب تقوم بتحضيره.",
     gearButton: "كن صاحب امتياز",
     heroDesc: "ابدأ صباحك مع مستجدات قهوتنا المنشطة.",

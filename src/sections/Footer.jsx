@@ -103,7 +103,7 @@ const Footer = () => {
       </div>
       <div>
         <h4 className='font-montserrat text-2xl leading-normal font-medium mb-6 text-white'>
-          {t.footerLinks.Aide[0].name}
+          {t.contactUs}
         </h4>
         <ul>
           <li className='mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray'>

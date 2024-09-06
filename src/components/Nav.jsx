@@ -58,7 +58,10 @@ const Navbar = () => {
             </ul>
           </div>
           <Link to="/contact" className="text-gray-900 hover:text-amber-950 text-xl">
-            {t.contactUs}
+            {t.contactUsss}
+          </Link>
+          <Link to="/equipment" className="text-gray-900 hover:text-amber-950 text-xl">
+            {t.equipment}
           </Link>
           <Link to="/aboutus" className="text-gray-900 hover:text-amber-950 text-xl">
             {t.aboutUs}
@@ -78,7 +81,12 @@ const Navbar = () => {
             <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
             <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
               <li><Link to="/" className="text-gray-900 hover:bg-amber-950 hover:text-white font-bold text-3xl">{t.home}</Link></li>
-              <li><Link to="/contact" className="text-gray-900 hover:bg-amber-950 hover:text-white font-bold text-3xl">{t.contactUs}</Link></li>
+              <li><Link to="/contact" className="text-gray-900 hover:bg-amber-950 hover:text-white font-bold text-3xl">{t.contactUsss}</Link></li>
+              <li>
+                <Link to="/equipment" className="text-gray-900 hover:bg-amber-950 hover:text-white font-bold text-3xl">
+                  {t.equipment}
+                </Link>
+              </li>
               <li><Link to="/aboutus" className="text-gray-900 hover:bg-amber-950 hover:text-white font-bold text-3xl">{t.aboutUs}</Link></li>
               <li className="dropdown dropdown-hover">
                 <div tabIndex={0} className="text-gray-900 hover:bg-amber-950 hover:text-white font-bold text-3xl">
@@ -102,7 +110,6 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-        
       </div>
     </nav>
   );

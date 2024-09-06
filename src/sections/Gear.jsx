@@ -11,7 +11,7 @@ const GearSection = () => {
   const t = translations[language];
 
   return (
-    <div className="flex flex-col md:flex-row items-center">
+    <div id="equipment-section" className="flex flex-col md:flex-row items-center">
       <div className="w-full md:w-3/5">
         <img
           src={khatra_gear}

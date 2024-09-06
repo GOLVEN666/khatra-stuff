@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { LanguageProvider } from './components/LanguageContext';
-
+import Equipment from './components/Equipment';  // Updated import statement
 import Navbar from './components/Nav';
 import {
   CustomerReviews,
@@ -61,6 +61,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/aboutus" element={<Aboutus />} />
           <Route path="/test" element={<MyForm />} />
+          <Route path="/equipment" element={<Equipment />} /> {/* Updated here */}
         </Routes>
         <section className=' bg-black padding-x padding-t pb-8'>
           <Footer />
